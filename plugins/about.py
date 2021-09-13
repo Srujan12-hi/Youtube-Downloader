@@ -1,7 +1,7 @@
 from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
 
 
-@Client.on_message(Filters.command(["start"]), group=-2)
+@Client.on_message(Filters.command(["about"]), group=-2)
 async def start(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
@@ -9,7 +9,7 @@ async def start(client, message):
         [InlineKeyboardButton(
             "If any bugs", url="https://t.me/Sruja_12_pa_bot")]
     ])
-    welcomed = f"📕 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 ,
+    welcomed = f''' 📕 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 ,
 
 ○ My Name : YouTube Video Downloader
 
@@ -21,7 +21,7 @@ async def start(client, message):
 
 ○ Version : 1.0.0
 
-○ Creator : @Sruja_12"
+○ Creator : @Sruja_12 '''
   
     await message.reply_text(welcomed, reply_markup=joinButton)
     raise StopPropagation
