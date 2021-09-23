@@ -13,9 +13,9 @@ async def start(client, message):
 
 ○ My Name : YouTube Video Downloader
 
-○ language : Python 
+○ language : Python 3.8.7
 
-○ Frame work : Pyrogran
+○ Frame work : Pyrogram
 
 ○ Server : Heroku
 
