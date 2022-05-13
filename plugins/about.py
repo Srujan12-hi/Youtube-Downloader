@@ -7,19 +7,19 @@ async def start(client, message):
     joinButton = InlineKeyboardMarkup([
         [InlineKeyboardButton("My Dev", url="https://t.me/Sruja_12")],
         [InlineKeyboardButton(
-            "If any bugs", url="https://t.me/Sruja_12_pa_bot")]
+            "If any bugs", url="https://t.me/Sruja_12")]
     ])
     welcomed = f''' 📕 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 ,
 
 ○ My Name : YouTube Video Downloader
 
-○ language : Python 3.8.7
+○ language : Python 3.9.7
 
 ○ Frame work : Pyrogram
 
 ○ Server : Heroku
 
-○ Version : 1.0.0
+○ Version : 2.0.0
 
 ○ Creator : @Sruja_12 
 
